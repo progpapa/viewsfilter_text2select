@@ -1,0 +1,10 @@
+name = Views filter text to select
+description = Add an option to change a Views textfield filter to select list.
+package = views
+core = 7.x
+
+; configure = admin/config/viewsfilter_text2select
+
+files[] = inc/viewsfilter_text2select_filter.inc
+
+dependencies[] = views
